@@ -52,7 +52,7 @@ def draw_cube():
 pygame.init()
 display = (800, 600)
 pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
-pygame.display.set_caption("04 Lab 1")
+pygame.display.set_caption("04 Lab 1 - Eliel Joemel P. Dimailig")
 
 gluPerspective(45, (display[0] / display[1]), 0.1, 50.0)
 glTranslatef(0, 0, -5)
